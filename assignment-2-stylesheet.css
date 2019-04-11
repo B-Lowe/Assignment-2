@@ -4,7 +4,7 @@
     height: 100%;
     position: absolute;
     z-index: 0;
-    background-image: url("assignment-2-photos/background.jpg");
+    background-image: url("background.jpg");
     background-size: 300px 300px;
     background-repeat: repeat;
 }
@@ -16,7 +16,7 @@
     position: absolute;
     left: 0%;
     right: 0%;
-    background-image: url("assignment-2-photos/forest-landscape-v1.jpg");
+    background-image: url("forest-landscape-v1.jpg");
     background-position: center;
     background-size: cover;
 }
@@ -52,4 +52,24 @@ footer {
     height: 8%;
     text-align: center;
     font-size: 112.5%;
+}
+
+.link{
+    display: inline-block;
+}
+
+a{
+    color: white;
+
+}
+
+a:hover{
+    color:green;
+}
+
+.contentHeading {
+    color:black;
+    font-size: 300%;
+    font-family:arial;
+    letter-spacing: 2px;
 }
